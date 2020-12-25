@@ -1,0 +1,200 @@
+[
+   {
+      "name": "Cape Town",
+      "country": "ZA",
+      "country_name": "South Africa",
+      "id": 3369157,
+      "currency": "ZAR",
+      "currency_name": "South African Rand",
+      "region": "Africa"
+   },
+   {
+      "name": "Los Angeles",
+      "country": "US",
+      "country_name": "United States of America",
+      "id": 5368361,
+      "currency": "USD",
+      "currency_name": "US Dollar",
+      "region": "North America"
+   },
+   {
+      "name": "Maceio",
+      "country": "BR",
+      "country_name": "Federative Republic of Brazil",
+      "id": 3395981,
+      "currency": "BRL",
+      "currency_name": "Brazilian Real",
+      "region": "South America"
+   },
+   {
+      "name": "Mexico City",
+      "country": "MX",
+      "country_name": "United Mexican States",
+      "id": 3530597,
+      "currency": "MXN",
+      "currency_name": "Mexican Peso",
+      "region": "North America"
+   },
+   {
+      "name": "Montreal",
+      "country": "CA",
+      "country_name": "Canada",
+      "id": 2013133,
+      "currency": "CAD",
+      "currency_name": "Canadian Dollar",
+      "region": "North America"
+   },
+   {
+      "name": "New York",
+      "country": "US",
+      "country_name": "United States of America",
+      "id": 5128581,
+      "currency": "USD",
+      "currency_name": "US Dollar",
+      "region": "North America"
+   },
+   {
+      "name": "Hong Kong",
+      "country": "CN",
+      "country_name": "People's Republic of China",
+      "id": 1819729,
+      "currency": "HKD",
+      "currency_name": "Hong Kong Dollar",
+      "region": "Asia"
+   },
+   {
+      "name": "Kuala Lumpur",
+      "country": "MY",
+      "country_name": "Malaysia",
+      "id": 1733046,
+      "currency": "MYR",
+      "currency_name": "Malasian Ringgit",
+      "region": "Asia"
+   },
+   {
+      "name": "Manila",
+      "country": "PH",
+      "country_name": "Philippines",
+      "id": 1701668,
+      "currency": "PHP",
+      "currency_name": "Philippine Peso",
+      "region": "Asia"
+   },
+   {
+      "name": "Mumbai",
+      "country": "IN",
+      "country_name": "India",
+      "id": 1275339,
+      "currency": "INR",
+      "currency_name": "Indian Rupee",
+      "region": "Asia"
+   },
+   {
+      "name": "Singapore",
+      "country": "SG",
+      "country_name": "Singapore",
+      "id": 1880252,
+      "currency": "SGD",
+      "currency_name": "Singapore Dollar",
+      "region": "Asia"
+   },
+   {
+      "name": "Tokyo",
+      "country": "JP",
+      "country_name": "Japan",
+      "id": 1850144,
+      "currency": "JPY",
+      "currency_name": "Japanese Yen",
+      "region": "Asia"
+   },
+   {
+      "name": "Alicante",
+      "country": "ES",
+      "country_name": "Spain",
+      "id": 2521978,
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "region": "Europe"
+   },
+   {
+      "name": "Gothenburg",
+      "country": "SE",
+      "country_name": "Sweden",
+      "id": 2711537,
+      "currency": "SEK",
+      "currency_name": "Swedish Krona",
+      "region": "Europe"
+   },
+   {
+      "name": "London",
+      "country": "GB",
+      "country_name": "United Kingdom",
+      "id": 2643743,
+      "currency": "GBP",
+      "currency_name": "Great Britain Pund",
+      "region": "Europe"
+   },
+   {
+      "name": "Madrid",
+      "country": "ES",
+      "country_name": "Spain",
+      "id": 3117735,
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "region": "Europe"
+   },
+   {
+      "name": "Moscow",
+      "country": "RU",
+      "country_name": "Russian Federation",
+      "id": 524901,
+      "currency": "RUB",
+      "currency_name": "Russian Ruble",
+      "region": "Europe"
+   },
+   {
+      "name": "Paris",
+      "country": "FR",
+      "country_name": "France",
+      "id": 2988507,
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "region": "Europe"
+   },
+   {
+      "name": "Rome",
+      "country": "IT",
+      "country_name": "Italy",
+      "id": 3169070,
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "region": "Europe"
+   },
+   {
+      "name": "Auckland",
+      "country": "NZ",
+      "country_name": "New Zealand",
+      "id": 2193733,
+      "currency": "NZD",
+      "currency_name": "New Zealand Dollar",
+      "region": "Oceania"
+   },
+   {
+      "name": "Brisbane",
+      "country": "AU",
+      "country_name": "Australia",
+      "id": 2174003,
+      "currency": "AUD",
+      "currency_name": "Australian Dollar",
+      "region": "Oceania"
+   },
+   {
+      "name": "Sydney",
+      "country": "AU",
+      "country_name": "Australia",
+      "id": 2147714,
+      "currency": "AUD",
+      "currency_name": "Australian Dollar",
+      "region": "Oceania"
+   }
+]
