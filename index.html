@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bluff och Båg Travels</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/helper-class.js"></script>
+    <script src="_model/bobTravels-model.js"></script>
+    <script src="_view/bobTravels-view.js"></script>
+    <script src="_controller/bobTravels-control.js"></script>
+    <script>
+        // Global constants and variables
+        var Current = {};
+        const WeatherAPIKey = "04317c363ddc293ec154e0747c54c30e";
+        const ExchangeRateAPIKey = "352611ef689d2d7857379dd1";
+        const LiveCamAPIKey = "UH70HtzXN5ceaFnSmxonNBfRdcbpcPKH";
+        const DefaultCity = 5128581; //New York
+
+        // Classes
+        const Model = new modelClass();
+        const View = new viewClass();
+        const Controller = new controllerClass();
+
+        // Create events
+        const cityDataLoaded = document.createEvent('Event');
+        cityDataLoaded.initEvent('cityDataLoaded', true, true);
+        const weatherDataLoaded = document.createEvent('Event');
+        weatherDataLoaded.initEvent('weatherDataLoaded', true, true);
+        const currencyDataLoaded = document.createEvent('Event');
+        currencyDataLoaded.initEvent('currencyDataLoaded', true, true);
+
+        // attach eventlisteners start app.
+        document.addEventListener('DOMContentLoaded', function () {
+            document.addEventListener('cityDataLoaded', Controller.setSelector);
+            document.addEventListener('cityDataLoaded', Controller.initSections);
+            document.addEventListener('weatherDataLoaded', Controller.refineWeatherData);
+            document.addEventListener('currencyDataLoaded', Controller.setExchangeRate)
+            Controller.init();
+        });
+    </script>
+
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1 class="page_head">Bluff och Båg Travels</h1>
+        <p class="align_center"><span style="font-size: 1.2em; font-weight: bold;">Nytt koncept i
+                resebranchen</span><br>Vi åker, ni betalar!</p>
+    </header>
+    <nav></nav>
+    <main>
+        <div id="container" class="container"></div>
+    </main>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p class="copyright_class">Data4Mat &copy; 2020<br>Chris Johanneson</p>
+        </div>
+    </footer>
+</body>
+
+</html>
